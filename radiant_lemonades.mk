@@ -22,18 +22,15 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/lemonades/device.mk)
 
 # Inherit some common Havoc-OS stuff.
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+$(call inherit-product, vendor/radiant/config/common_full_phone.mk)
 
-# Boot Animation
+# Project Radiant
 TARGET_BOOT_ANIMATION_RES := 1080
-
-# Official
-HAVOC_BUILD_TYPE := Official
-HAVOC_MAINTAINER := Chandu
-HAVOC_GROUP_URL := https://t.me/havoc_oneplus8
+TARGET_INCLUDE_GOOGLE_RECORDER := true
+RADIANT_BUILD_TYPE := UNOFFICIAL
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := havoc_lemonades
+PRODUCT_NAME := radiant_lemonades
 PRODUCT_DEVICE := lemonades
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus

@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_lemonades.mk
+    $(LOCAL_DIR)/radiant_lemonades.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_lemonades-user \
-    havoc_lemonades-userdebug \
-    havoc_lemonades-eng
+    radiant_lemonades-user \
+    radiant_lemonades-userdebug \
+    radiant_lemonades-eng
